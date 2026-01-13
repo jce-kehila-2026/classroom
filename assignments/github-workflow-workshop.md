@@ -141,16 +141,16 @@ You have made a commit on your branch using the browser.
 
 ## Step 7 – Edit the Wiki (web only)
 
-If your issue is about the Wiki:
+Update the Wiki:
 
 1. At the top of the repo, click the **Wiki** tab.
 2. Click **Create the first page** (or **New page** if a wiki already exists).
 3. Set a **Page title**, for example:
-   - `Team Workflow`
+   - `Assignments`
 4. In the content area, describe a simple team workflow, e.g.:
 
    ```markdown
-   # Team Workflow
+   # Assignments
 
    1. Create an issue for each new task.
    2. Create a branch for that issue.
@@ -163,6 +163,7 @@ If your issue is about the Wiki:
 
 Wiki edits are tracked with your username and timestamp.
 
+To prepare for Project Documentation - copy the skeleton markdown files from the /docs/wiki_templates folder to the Wiki
 ---
 
 ## Step 8 – Open a Pull Request (PR)
