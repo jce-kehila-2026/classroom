@@ -1,4 +1,4 @@
 # classroom
 ##Classroom assignments
 
-/assignments/github-workflow-workshop.md
+[github Assignment](URL)
