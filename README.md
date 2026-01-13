@@ -1,3 +1,4 @@
 # classroom
-Classroom assignments
-/assignments/
+##Classroom assignments
+
+/assignments/github-workflow-workshop.md
