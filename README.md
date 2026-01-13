@@ -1,2 +1,3 @@
 # classroom
 Classroom assignments
+/assignments/
