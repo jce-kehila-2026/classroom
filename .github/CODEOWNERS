@@ -1,0 +1,5 @@
+# CODEOWNERS file for classroom repository
+# This ensures that only instructors can approve changes to the main branch
+# All changes to any file in this repository require approval from the instructors team
+
+* @jce-kehila-2026/instructors

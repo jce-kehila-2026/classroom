@@ -1,0 +1,16 @@
+name: Branch Protection Reminder
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-branch-protection:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR author
+        run: |
+          echo "::notice::This PR targets the main branch which is exposed to students."
+          echo "::notice::Please ensure all content is ready for student access before merging."
+          echo "::notice::Only instructors should approve and merge to main."
