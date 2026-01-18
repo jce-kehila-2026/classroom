@@ -139,7 +139,7 @@ You have made a commit on your branch using the browser.
 
 ---
 
-## Step 7 – Edit the Wiki (web only version)
+## Step 7 – Edit the Wiki (web-only version - see command line option below)
 
 To prepare for Project Documentation - copy the skeleton markdown files from the /docs/wiki_templates folder to the repository Wiki
 
@@ -159,6 +159,16 @@ To prepare for Project Documentation - copy the skeleton markdown files from the
 
 Wiki edits are tracked with your username and timestamp.
 
+###GIT Command line option!!! For those with git properly installed
+1. Clone a local copy of your empty project Wiki:
+    $ git clone https://github.com/target-owner/<project-name>.wiki.git
+2. $ cd <project-name>.wiki
+3. Copy all the Markdown files from /docs/wiki_templates to this folder
+4. Stage and commit and push the changes
+  $ git add .
+  $ git commit -m "Added the Wiki Templates"
+  $ git push
+5. Check the GITHUB Wiki
 
 ---
 
