@@ -139,31 +139,27 @@ You have made a commit on your branch using the browser.
 
 ---
 
-## Step 7 – Edit the Wiki (web only)
+## Step 7 – Edit the Wiki (web only version)
 
-Update the Wiki:
+To prepare for Project Documentation - copy the skeleton markdown files from the /docs/wiki_templates folder to the repository Wiki
 
 1. At the top of the repo, click the **Wiki** tab.
-2. Click **Create the first page** (or **New page** if a wiki already exists).
-3. Set a **Page title**, for example:
-   - `Assignments`
-4. In the content area, describe a simple team workflow, e.g.:
-
-   ```markdown
-   # Assignments
-
-   1. Create an issue for each new task.
-   2. Create a branch for that issue.
-   3. Make and commit changes in the branch.
-   4. Open a pull request and get a review.
-   5. Merge the pull request and close the issue.
-   ```
-
+2. Click **Create the first page**
+3. Set  the first page title "HOME"
+4. In the content area - Paste the contents of the HOME.md file
 5. Click **Save page**.
+6. For each additional MARKDOWN file:  
+      Click **New page** and REPEAT Steps 3-5
+      ( Example: 3. Set a **Page title**, 
+         - `Functional Requirements`
+                 4 In the content area, Paste the contents of the corresponding MARKDOWN template file.
+                 5. Click **Save page**.
+       )
+       ```
 
 Wiki edits are tracked with your username and timestamp.
 
-To prepare for Project Documentation - copy the skeleton markdown files from the /docs/wiki_templates folder to the Wiki
+
 ---
 
 ## Step 8 – Open a Pull Request (PR)
